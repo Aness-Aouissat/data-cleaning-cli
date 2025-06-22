@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# data-cleaning-cli
-=======
 # 🧹 Data Cleaning CLI
 
 **An interactive command-line tool to clean messy datasets, fast.**
@@ -90,4 +87,4 @@ This section highlights key user behaviors to avoid confusion when running the C
 ## 📄 License
 
 MIT License — free for personal and commercial use, with credit.
->>>>>>> 95eb5b2 (Initial commit of CLI data cleaning tool)
+
