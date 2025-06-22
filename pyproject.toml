@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "data_cleaning_cli"
+version = "2025.0.0"
+dependencies = [
+  "pandas",
+  "typer",
+]
+requires-python = ">= 3.8"
+authors = [{name = "Aness Aouissat", email = "anessaouissat@gmail.com"}]
+maintainers = [{name = "Aness Aouissat", email = "anessaouissat@gmail.com"}]
+description = "Interactive CLI tool with a complete end-to-end data cleaning pipeline"
+license = "MIT"
+classifiers = ["Programming Language :: Python"]
+
+[project.scripts]
+datacleaner = "datacleaner.main:run_clean"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/datacleaner"]
